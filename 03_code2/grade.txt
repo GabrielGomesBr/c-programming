@@ -1,25 +1,23 @@
-Grading at Wed Aug  8 01:12:45 UTC 2018
+Grading at Wed Aug  8 01:20:44 UTC 2018
 Checking code2.c for legal syntax
 Checking for int printTriangle (int size)
 Found on line 5, column 1 
 Checking for int main(void)
 Found on line 18, column 1 
 Trying to run the code..
-Your file did not match the expected ouput
-Here is what you printed
-Here is a triangle with height 4
-*
-**
-***
-****
-That triangle had 10 total stars
-*
-**
-***
-****
-*****
-******
-*******
-That triangle had 28 total stars
+Your file matched the expected output
+Removing your main() and replacing it with our own to run more tests...
+Testing printTriangle(0) ... Correct
+Testing printTriangle(1) ... Correct
+Testing printTriangle(2) ... Correct
+Testing printTriangle(3) ... Correct
+Testing printTriangle(4) ... Correct
+Testing printTriangle(7) ... Correct
+Testing printTriangle(9) ... Correct
+Testing printTriangle(12) ... Correct
+Testing printTriangle(111) ... Correct
+Testing printTriangle(242) ... Correct
+Testing printTriangle(1701) ... Correct
+Testing printTriangle(2495) ... Correct
 
-Overall Grade: F
+Overall Grade: A
