@@ -1,0 +1,18 @@
+Grading at Wed Aug  8 03:17:13 UTC 2018
+Trying to compile your code and link with squares_test.o
+squares.c: In function ‘squares’:
+squares.c:6:27: error: expected expression before ‘>’ token
+ #define GREATERE(x,y) ((x=>y)?1:0)
+                           ^
+squares.c:19:15: note: in expansion of macro ‘GREATERE’
+       aux1 = (GREATERE(x,x_offset)&&(LESSE(x,x_offset+size2)));
+               ^
+squares.c:6:27: error: expected expression before ‘>’ token
+ #define GREATERE(x,y) ((x=>y)?1:0)
+                           ^
+squares.c:21:15: note: in expansion of macro ‘GREATERE’
+       aux3 = (GREATERE(y,y_offset)&&(LESSE(y,y_offset+size2)));
+               ^
+Could not compile your code
+
+Overall Grade: FAILED
