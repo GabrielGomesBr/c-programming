@@ -3,8 +3,8 @@
 #define MAX(x,y) ((x>y)?x:y)
 #define GREATER(x,y) ((x>y)?1:0))
 #define LESS(x,y) ((x<y)?1:0)
-#define GREATERE(x,y) ((x=>y)?1:0)
-#define LESSE(x,y) ((x<=y)? 1:0)
+#define GREATERE(x,y) ((x>=y)?1:0)
+#define LESSE(x,y) ((x<y)? 1:0)
 void squares(int size1, int x_offset, int y_offset, int size2) {
  //compute the max of size1 and (x_offset + size2).  Call this w
   int w,h,aux1,aux2,aux3,aux4;
