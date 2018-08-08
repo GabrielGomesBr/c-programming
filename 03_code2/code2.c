@@ -18,6 +18,7 @@ int main(void) {
   printf("Here is a triangle with height 4\n");
   numStars = printTriangle(4);
   printf("That triangle had %d total stars\n", numStars);
+  printf("Here is a triangle with height 7\n");
   numStars = printTriangle(7);
   printf("That triangle had %d total stars\n", numStars);
   return 0;
