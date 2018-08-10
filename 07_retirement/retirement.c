@@ -21,20 +21,20 @@ void retirement (int startAge, double initial, retire_info working, retire_info 
   startMonth = startAge;
   startAge /= 12;
   startMonth = startMonth-startAge*12;
-  balance = calculateBalance(startAge, startMonth, working.months, working.rate_of_return, working.contribution, balance);
+  balance = calculateBalance(startAge, startMonth, working.months, working.rate_of_return/1200, working.contribution, balance);
   startAge += (startMonth+working.months)/12;
   startMonth = (startMonth + working.months%12)%12;
-  calculateBalance(startAge, startMonth, retired.months, retired.rate_of_return, retired.contribution, balance);
+  calculateBalance(startAge, startMonth, retired.months, retired.rate_of_return/1200, retired.contribution, balance);
 }
 
 int main (void){
   retire_info working, retired;
   working.months = 489;
   working.contribution = 1000;
-  working.rate_of_return = 4.5/1200;
+  working.rate_of_return = 4.5;
   retired.months = 384;
   retired.contribution = -4000;
-  retired.rate_of_return = 1.0/1200;
+  retired.rate_of_return = 1.0;
   retirement(327,21345,working,retired);
   
 }
