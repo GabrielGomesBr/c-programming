@@ -3,7 +3,8 @@
 
 struct _retire_info{
   int months;
-  double contribution, rate_of_return;
+  double contribution;
+  double rate_of_return;
 };
 
 typedef struct  _retire_info retire_info;
@@ -36,5 +37,5 @@ int main (void){
   retired.contribution = -4000;
   retired.rate_of_return = 1.0;
   retirement(327,21345,working,retired);
-  
+  return 0;
 }
