@@ -23,7 +23,8 @@ void retirement (int startAge, double initial, retire_info working, retire_info 
   startMonth = startMonth-startAge*12;
   balance = calculateBalance(startAge, startMonth, working.months, working.rate_of_return, working.contribution, balance);
   startAge += (startMonth+working.months)/12;
-  calculateBalance(startAge, 0, retired.months, retired.rate_of_return, retired.contribution, balance);
+  startMonth = (startMonth + working.months%12)%12;
+  calculateBalance(startAge, startMonth, retired.months, retired.rate_of_return, retired.contribution, balance);
 }
 
 int main (void){
