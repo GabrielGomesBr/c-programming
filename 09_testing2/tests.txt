@@ -1,0 +1,15 @@
+
+AaAaA BbBbB
+aaaaaa bbbbbb
+aaaa aaaa
+a~aab b~~bba
+aa1aa bbbbb
+aa aa bbbbb
+
+a
+aaaaa bbbaa
+12345 54321
+555aa aa444
+(1231 {123}
+111aa  aaaa
+       a
