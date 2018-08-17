@@ -10,7 +10,7 @@ void assert_card_valid(card_t c) {
 
 const char * ranking_to_string(hand_ranking_t r) {
   switch(r){
-  case STRAIGHT_FLUSH: printf("STRAIGHT_FLUSH"); break;
+  case STRAIGHT_FLUSH: printf("STRAIGHT_FLUSH"); return "STRAIGHT_FLUSH";  break;
   case FOUR_OF_A_KIND: printf("FOUR_OF_A_KIND\n"); break;
   case FULL_HOUSE: printf("FULL HOUSE"); break;
   case FLUSH: printf("FLUSH"); break;
@@ -20,7 +20,6 @@ const char * ranking_to_string(hand_ranking_t r) {
   case PAIR:printf("PAIR\n"); break;
   case NOTHING: printf("NOTHING\n"); break;
   }
-  return "r";
 }
 
 char value_letter(card_t c) {
