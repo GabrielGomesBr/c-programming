@@ -1,4 +1,4 @@
-Grading at Fri Aug 17 06:23:46 UTC 2018
+Grading at Fri Aug 17 11:42:42 UTC 2018
 Compiling cards.c
 Testing card_from_letters
 Passed
@@ -22,8 +22,6 @@ Js
 Qs
 Ks
 As
-1h
-2h
 3h
 4h
 5h
@@ -35,8 +33,8 @@ As
 Jh
 Qh
 Kh
-2d
-3d
+Ah
+5h
 4d
 5d
 6d
@@ -48,7 +46,8 @@ Jd
 Qd
 Kd
 Ad
-2c
+5d
+6d
 3c
 4c
 5c
@@ -61,5 +60,6 @@ Jc
 Qc
 Kc
 Ac
+5c
 
 Overall Grade: FAILED
