@@ -10,15 +10,15 @@ void assert_card_valid(card_t c) {
 
 const char * ranking_to_string(hand_ranking_t r) {
   switch(r){
-  case STRAIGHT_FLUSH: /*printf("STRAIGHT_FLUSH\n");*/ return "STRAIGHT FLUSH";  break;
+  case STRAIGHT_FLUSH: /*printf("STRAIGHT_FLUSH\n");*/ return "STRAIGHT_FLUSH";  break;
   case FOUR_OF_A_KIND: return "FOUR_OF_A_KIND"; break;
-  case FULL_HOUSE: return "FULL HOUSE"; break;
+  case FULL_HOUSE: return "FULL_HOUSE"; break;
   case FLUSH: return "FLUSH";break;
   case STRAIGHT: return "STRAIGHT"; break;
-  case THREE_OF_A_KIND: return "THREE OF A KIND"; break;
-  case TWO_PAIR: return "TWO PAIR"; break;
-  case PAIR:return "PAIR\n"; break;
-  case NOTHING: return "NOTHING\n"; break;
+  case THREE_OF_A_KIND: return "THREE_OF_A_KIND"; break;
+  case TWO_PAIR: return "TWO_PAIR"; break;
+  case PAIR:return "PAIR"; break;
+  case NOTHING: return "NOTHING"; break;
   
  default: return "";
   } 
