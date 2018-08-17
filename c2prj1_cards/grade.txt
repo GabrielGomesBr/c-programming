@@ -1,19 +1,13 @@
-Grading at Fri Aug 17 12:24:11 UTC 2018
+Grading at Fri Aug 17 12:27:08 UTC 2018
 Compiling cards.c
 cards.c: In function ‘ranking_to_string’:
-cards.c:12:3: error: enumeration value ‘FULL_HOUSE’ not handled in switch [-Werror=switch]
-   switch(r){
-   ^
-cards.c:12:3: error: enumeration value ‘FLUSH’ not handled in switch [-Werror=switch]
-cards.c:12:3: error: enumeration value ‘STRAIGHT’ not handled in switch [-Werror=switch]
-cards.c:12:3: error: enumeration value ‘THREE_OF_A_KIND’ not handled in switch [-Werror=switch]
-cards.c:12:3: error: enumeration value ‘TWO_PAIR’ not handled in switch [-Werror=switch]
-cards.c:12:3: error: enumeration value ‘PAIR’ not handled in switch [-Werror=switch]
-cards.c:12:3: error: enumeration value ‘NOTHING’ not handled in switch [-Werror=switch]
-cards.c:23:2: error: ‘default’ label not within a switch statement
-  default: return "";
-  ^
-cc1: all warnings being treated as errors
+cards.c:18:25: error: ‘returnv’ undeclared (first use in this function)
+   case THREE_OF_A_KIND: returnv"THREE OF A KIND"; break;
+                         ^
+cards.c:18:25: note: each undeclared identifier is reported only once for each function it appears in
+cards.c:18:32: error: expected ‘;’ before string constant
+   case THREE_OF_A_KIND: returnv"THREE OF A KIND"; break;
+                                ^
 Could not compile your card.c!
 
 Overall Grade: FAILED
