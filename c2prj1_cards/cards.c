@@ -52,36 +52,35 @@ void print_card(card_t c) {
 card_t card_from_letters(char value_let, char suit_let) {
   card_t temp;
   if(value_let == '0'){
-    value_let+=10;
+    temp.value = 10;
   }
   if(value_let == 'A'){
-    value_let='14';
+    temp.value = 14;
   }
   if(value_let == 'J'){
-    value_let='11';
+    temp.value = 11;
   }
   if(value_let == 'Q'){
-    value_let='12';
+    temp.value = 12;
   }
   if(value_let == 'K'){
-    value_let='13';
+    temp.value  = 13;
+  }
+  if(value_let >= 50 && value_let <=57){
+      temp.value = value_let-48;
   }
   switch(suit_let){
   case 's':
     temp.suit = SPADES;
-    temp.value = value_let-48;
     break;
   case 'h':
     temp.suit = HEARTS;
-    temp.value = value_let-48;
     break;
   case 'd':
     temp.suit = DIAMONDS;
-    temp.value = value_let-48;
     break;
   case 'c':
     temp.suit = CLUBS;
-    temp.value = value_let-48;
     break;
 }
   // assert(temp.value>=2 && temp.value<=14);
