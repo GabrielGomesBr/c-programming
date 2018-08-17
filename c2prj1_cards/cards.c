@@ -96,15 +96,15 @@ card_t card_from_num(unsigned c) {
     temp.suit = SPADES;
   }
   else if (c>=13 && c<= 25){
-    temp.value = c+2-14;
+    temp.value = c+2-12;
     temp.suit = HEARTS;
   }
   else if (c>=26 && c<=38){
-    temp.value = c+2-26;
+    temp.value = c+2-24;
     temp.suit = DIAMONDS;
   }
   else if (c>= 39 && c<=51){
-    temp.value = c+2-39;
+    temp.value = c+2-38;
     temp.suit = CLUBS;
   }
   return temp;
