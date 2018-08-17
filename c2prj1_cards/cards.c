@@ -100,7 +100,7 @@ card_t card_from_num(unsigned c) {
     temp.suit = HEARTS;
   }
   else if (c>=26 && c<=38){
-    temp.value = c+2-25;
+    temp.value = c+2-26;
     temp.suit = DIAMONDS;
   }
   else if (c>= 39 && c<=51){
