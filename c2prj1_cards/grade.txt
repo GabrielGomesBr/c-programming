@@ -1,4 +1,4 @@
-Grading at Fri Aug 17 12:13:44 UTC 2018
+Grading at Fri Aug 17 12:16:25 UTC 2018
 Compiling cards.c
 cards.c: In function ‘ranking_to_string’:
 cards.c:23:1: error: control reaches end of non-void function [-Werror=return-type]
