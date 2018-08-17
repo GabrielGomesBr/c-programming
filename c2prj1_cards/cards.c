@@ -72,7 +72,7 @@ card_t card_from_letters(char value_let, char suit_let) {
     temp.value = value_let-48;
     break;
 }
-  assert(temp.value>=2 && temp.value<=14);
+  // assert(temp.value>=2 && temp.value<=14);
   assert(temp.suit>=0 && temp.suit<4);
   return temp;
 }
