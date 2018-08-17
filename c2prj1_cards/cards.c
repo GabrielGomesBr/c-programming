@@ -17,10 +17,10 @@ const char * ranking_to_string(hand_ranking_t r) {
   case STRAIGHT: printf("STRAIGHT"); break;
   case THREE_OF_A_KIND: printf("THREE OF A KIND"); break;
   case TWO_PAIR: printf("TWO PAIR"); break;
-  case PAIR: printf("PAIR\n"); break;
+  case PAIR:printf("PAIR\n"); break;
   case NOTHING: printf("NOTHING\n"); break;
   }
-  return "";
+  return "r";
 }
 
 char value_letter(card_t c) {
