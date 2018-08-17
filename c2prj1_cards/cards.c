@@ -54,6 +54,18 @@ card_t card_from_letters(char value_let, char suit_let) {
   if(value_let == '0'){
     value_let+=10;
   }
+  if(value_let == 'A'){
+    value_let='14';
+  }
+  if(value_let == 'J'){
+    value_let='11';
+  }
+  if(value_let == 'Q'){
+    value_let='12';
+  }
+  if(value_let == 'K'){
+    value_let='13';
+  }
   switch(suit_let){
   case 's':
     temp.suit = SPADES;
