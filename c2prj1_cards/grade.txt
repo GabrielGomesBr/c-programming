@@ -1,13 +1,25 @@
-Grading at Fri Aug 17 12:27:08 UTC 2018
+Grading at Fri Aug 17 12:28:06 UTC 2018
 Compiling cards.c
-cards.c: In function ‘ranking_to_string’:
-cards.c:18:25: error: ‘returnv’ undeclared (first use in this function)
-   case THREE_OF_A_KIND: returnv"THREE OF A KIND"; break;
-                         ^
-cards.c:18:25: note: each undeclared identifier is reported only once for each function it appears in
-cards.c:18:32: error: expected ‘;’ before string constant
-   case THREE_OF_A_KIND: returnv"THREE OF A KIND"; break;
-                                ^
-Could not compile your card.c!
+Testing card_from_letters
+Passed
+Testing value_letter and suit_letter
+Passed
+Testing print_card
+Passed
+Testing card_from_num
+Passed
+Testing ranking_to_string
+ranking_to_string(STRAIGHT_FLUSH) resulted in STRAIGHT FLUSH (Incorrect)
+ranking_to_string(FOUR_OF_A_KIND) resulted in FOUR_OF_A_KIND  (Correct)
+ranking_to_string(FULL_HOUSE) resulted in FULL HOUSE (Incorrect)
+ranking_to_string(FLUSH) resulted in FLUSH  (Correct)
+ranking_to_string(STRAIGHT) resulted in STRAIGHT  (Correct)
+ranking_to_string(THREE_OF_A_KIND) resulted in THREE OF A KIND (Incorrect)
+ranking_to_string(TWO_PAIR) resulted in TWO PAIR (Incorrect)
+ranking_to_string(PAIR) resulted in PAIR
+ (Incorrect)
+ranking_to_string(NOTHING) resulted in NOTHING
+ (Incorrect)
+Failed
 
 Overall Grade: FAILED
