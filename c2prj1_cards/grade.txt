@@ -1,4 +1,4 @@
-Grading at Fri Aug 17 11:49:02 UTC 2018
+Grading at Fri Aug 17 11:51:17 UTC 2018
 Compiling cards.c
 Testing card_from_letters
 Passed
@@ -9,24 +9,15 @@ Passed
 Testing card_from_num
 Passed
 Testing ranking_to_string
-STRAIGHT FLUSH
-ranking_to_string(STRAIGHT_FLUSH) resulted in  (Incorrect)
-FOUR OF A KIND
-ranking_to_string(FOUR_OF_A_KIND) resulted in  (Incorrect)
-FULL HOUSE
-ranking_to_string(FULL_HOUSE) resulted in  (Incorrect)
-FLUSH
-ranking_to_string(FLUSH) resulted in  (Incorrect)
-STRAIGHT
-ranking_to_string(STRAIGHT) resulted in  (Incorrect)
-THREE OF A KIND
-ranking_to_string(THREE_OF_A_KIND) resulted in  (Incorrect)
-TWO PAIR
-ranking_to_string(TWO_PAIR) resulted in  (Incorrect)
-PAIR
-ranking_to_string(PAIR) resulted in  (Incorrect)
-NOTHING
-ranking_to_string(NOTHING) resulted in  (Incorrect)
+STRAIGHT FLUSHranking_to_string(STRAIGHT_FLUSH) resulted in  (Incorrect)
+FOUR OF A KINDranking_to_string(FOUR_OF_A_KIND) resulted in  (Incorrect)
+FULL HOUSEranking_to_string(FULL_HOUSE) resulted in  (Incorrect)
+FLUSHranking_to_string(FLUSH) resulted in  (Incorrect)
+STRAIGHTranking_to_string(STRAIGHT) resulted in  (Incorrect)
+THREE OF A KINDranking_to_string(THREE_OF_A_KIND) resulted in  (Incorrect)
+TWO PAIRranking_to_string(TWO_PAIR) resulted in  (Incorrect)
+PAIRranking_to_string(PAIR) resulted in  (Incorrect)
+NOTHINGranking_to_string(NOTHING) resulted in  (Incorrect)
 Failed
 
 Overall Grade: FAILED
