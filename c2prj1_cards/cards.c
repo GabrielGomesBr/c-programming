@@ -20,6 +20,7 @@ const char * ranking_to_string(hand_ranking_t r) {
   case PAIR:printf("PAIR\n"); break;
   case NOTHING: printf("NOTHING\n"); break;
   }
+  return "";
 }
 
 char value_letter(card_t c) {
