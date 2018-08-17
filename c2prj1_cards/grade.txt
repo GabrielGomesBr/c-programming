@@ -1,23 +1,65 @@
-Grading at Fri Aug 17 06:16:45 UTC 2018
+Grading at Fri Aug 17 06:23:46 UTC 2018
 Compiling cards.c
-cards.c: In function ‘card_from_letters’:
-cards.c:58:15: error: multi-character character constant [-Werror=multichar]
-     value_let='14';
-               ^
-cards.c:58:15: error: overflow in implicit constant conversion [-Werror=overflow]
-cards.c:61:15: error: multi-character character constant [-Werror=multichar]
-     value_let='11';
-               ^
-cards.c:61:15: error: overflow in implicit constant conversion [-Werror=overflow]
-cards.c:64:15: error: multi-character character constant [-Werror=multichar]
-     value_let='12';
-               ^
-cards.c:64:15: error: overflow in implicit constant conversion [-Werror=overflow]
-cards.c:67:15: error: multi-character character constant [-Werror=multichar]
-     value_let='13';
-               ^
-cards.c:67:15: error: overflow in implicit constant conversion [-Werror=overflow]
-cc1: all warnings being treated as errors
-Could not compile your card.c!
+Testing card_from_letters
+Passed
+Testing value_letter and suit_letter
+Passed
+Testing print_card
+Passed
+Testing card_from_num
+When I use card_from_num on numbers 0<= i < 52
+I expect to see each card exactly once, but I see:
+2s
+3s
+4s
+5s
+6s
+7s
+8s
+9s
+0s
+Js
+Qs
+Ks
+As
+1h
+2h
+3h
+4h
+5h
+6h
+7h
+8h
+9h
+0h
+Jh
+Qh
+Kh
+2d
+3d
+4d
+5d
+6d
+7d
+8d
+9d
+0d
+Jd
+Qd
+Kd
+Ad
+2c
+3c
+4c
+5c
+6c
+7c
+8c
+9c
+0c
+Jc
+Qc
+Kc
+Ac
 
 Overall Grade: FAILED
