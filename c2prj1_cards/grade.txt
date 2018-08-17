@@ -1,26 +1,19 @@
-Grading at Fri Aug 17 12:21:38 UTC 2018
+Grading at Fri Aug 17 12:24:11 UTC 2018
 Compiling cards.c
-Testing card_from_letters
-Passed
-Testing value_letter and suit_letter
-Passed
-Testing print_card
-Passed
-Testing card_from_num
-Passed
-Testing ranking_to_string
-ranking_to_string(STRAIGHT_FLUSH) resulted in STRAIGHT FLUSH (Incorrect)
-ranking_to_string(FOUR_OF_A_KIND) resulted in FOUR OF A KIND
- (Incorrect)
-FULL HOUSEranking_to_string(FULL_HOUSE) resulted in  (Incorrect)
-FLUSHranking_to_string(FLUSH) resulted in  (Incorrect)
-STRAIGHTranking_to_string(STRAIGHT) resulted in  (Incorrect)
-THREE OF A KINDranking_to_string(THREE_OF_A_KIND) resulted in  (Incorrect)
-TWO PAIRranking_to_string(TWO_PAIR) resulted in  (Incorrect)
-PAIR
-ranking_to_string(PAIR) resulted in  (Incorrect)
-NOTHING
-ranking_to_string(NOTHING) resulted in  (Incorrect)
-Failed
+cards.c: In function ‘ranking_to_string’:
+cards.c:12:3: error: enumeration value ‘FULL_HOUSE’ not handled in switch [-Werror=switch]
+   switch(r){
+   ^
+cards.c:12:3: error: enumeration value ‘FLUSH’ not handled in switch [-Werror=switch]
+cards.c:12:3: error: enumeration value ‘STRAIGHT’ not handled in switch [-Werror=switch]
+cards.c:12:3: error: enumeration value ‘THREE_OF_A_KIND’ not handled in switch [-Werror=switch]
+cards.c:12:3: error: enumeration value ‘TWO_PAIR’ not handled in switch [-Werror=switch]
+cards.c:12:3: error: enumeration value ‘PAIR’ not handled in switch [-Werror=switch]
+cards.c:12:3: error: enumeration value ‘NOTHING’ not handled in switch [-Werror=switch]
+cards.c:23:2: error: ‘default’ label not within a switch statement
+  default: return "";
+  ^
+cc1: all warnings being treated as errors
+Could not compile your card.c!
 
 Overall Grade: FAILED
