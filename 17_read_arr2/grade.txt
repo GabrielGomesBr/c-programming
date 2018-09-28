@@ -1,0 +1,12 @@
+Grading at Fri Sep 28 10:34:48 UTC 2018
+Attempting to compile test.c
+gcc -std=gnu99 -pedantic -Wall -O3   -c -o test.o test.c
+gcc -o test -O3 test.o
+gcc -std=gnu99 -pedantic -Wall -ggdb3 -DDEBUG -c -o test.dbg.o test.c
+gcc -o test-debug -ggdb3 test.dbg.o
+compiled
+Line_1_did_not_match
+Your file did not match the expected ouput
+Your output did not match what we expected.
+
+Overall Grade: F
