@@ -1,3 +1,4 @@
+#include <stdlib.h>
 size_t maxSeq(int * array, size_t n){
   int array_aux[n];
   for(int k = 0; k < n; k++){
