@@ -2,9 +2,24 @@
 #include <stdlib.h>
 #include <string.h>
 
-void reverse(char * str) {
-  //WRITE ME!
+void reverse(char * PString) {
+  char * pString = PString;
+  char aux;
+  int counter = 0;
+  while(*(pString+1) != '\0'){
+    counter++;
+    pString++; 
+  }
+  for(int i = 0; i < counter; i++){
+    if(((pString-i) - (PString+i)) < 1){
+      break; 
+    }
+    aux = *(pString - i);
+    *(pString-i) = *(PString+i); 
+    *(PString+i) = aux;
+   }
 }
+
 
 int main(void) {
   char str0[] = "";
