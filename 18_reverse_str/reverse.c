@@ -6,6 +6,8 @@ void reverse(char * s) {
   int c = 0;
   int length = 0;
   char *begin, *end, temp;
+ 
+  if(s != NULL){
   while( *(s + c) != '\0' )
     c++;
   length = c;
@@ -34,6 +36,7 @@ void reverse(char * s) {
       end--;
       
     }
+  }
 }
 int main(void) {
   char str0[] = "";
