@@ -1,0 +1,10 @@
+Grading at Sun Nov  4 23:58:57 UTC 2018
+Attempting to compile power.c
+power.c: In function ‘power’:
+power.c:2:12: error: unused variable ‘aux’ [-Werror=unused-variable]
+   unsigned aux = x;
+            ^
+cc1: all warnings being treated as errors
+The code did not compile!
+
+Overall Grade: F
