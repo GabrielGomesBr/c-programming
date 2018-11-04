@@ -1,5 +1,5 @@
 unsigned power(unsigned x, unsigned y){
-  unsigned aux = x;
+  //  unsigned aux = x;
   if(y == 0){
     if(x == 0){
       return 1;
